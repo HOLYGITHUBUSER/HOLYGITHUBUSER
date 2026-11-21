@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title">
-<title id="title">HOLYGITHUBUSER / Engineering Atlas — Android systems, developer tools and AI agents</title>
+<title id="title">RaymondsWorkshop / Engineering Atlas — Android systems, developer tools and AI agents</title>
 <defs><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#6989ad" opacity=".23"/></pattern><style>.flow{stroke-dasharray:9 170;animation:f 6s linear infinite}@keyframes f{to{stroke-dashoffset:-358}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style></defs>
 <rect width="960" height="280" rx="16" fill="#101b2d"/><rect width="960" height="280" rx="16" fill="url(#dots)"/>
-<g font-family="monospace" fill="#a9c2d5"><text x="36" y="45" font-size="14" letter-spacing="3">ENGINEERING ATLAS   /   FIELD NOTES</text><text x="36" y="118" font-size="57" font-weight="bold" fill="#eff7ff">HOLYGITHUBUSER</text><text x="38" y="156" font-size="18" fill="#bdd3e1">Android systems · Developer tools · AI agents</text>
+<g font-family="monospace" fill="#a9c2d5"><text x="36" y="45" font-size="14" letter-spacing="3">ENGINEERING ATLAS   /   FIELD NOTES</text><text x="36" y="118" font-size="57" font-weight="bold" fill="#eff7ff">RaymondsWorkshop</text><text x="38" y="156" font-size="18" fill="#bdd3e1">Android systems · Developer tools · AI agents</text>
 <path d="M40 214H914" stroke="#466077"/><path class="flow" d="M40 214H914" stroke="#a4ffee" stroke-width="3"/>
 <g fill="#7fe3c1"><circle cx="42" cy="214" r="6"/><text x="37" y="250">01 / DIAGNOSE</text></g><g fill="#96bfff"><circle cx="350" cy="214" r="6"/><text x="345" y="250">02 / BUILD</text></g><g fill="#ffcc87"><circle cx="666" cy="214" r="6"/><text x="661" y="250">03 / AUTOMATE</text></g></g>
 <g transform="translate(755 39)" fill="none" stroke-width="2"><path d="m0 50 61-32 61 32-61 32z" stroke="#ffcc87"/><path d="m0 66 61 32 61-32" stroke="#96bfff"/><path d="m0 82 61 32 61-32" stroke="#7fe3c1"/></g></svg>
