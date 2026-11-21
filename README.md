@@ -1,35 +1,10 @@
-![HOLYGITHUBUSER：Android 系统与稳定性、开发者工具、AI 工程](./engineering-atlas.svg)
+# Android 系统与开发者工具
 
-**Android 系统开发者，也做开发者工具。** 工作中，我沿着日志和时间线排查手机与车机之间的连接问题。工作之外，我把编辑文件、调试工具和使用 AI 时遇到的麻烦做成小项目。
+10 年以上 Android 开发经验，关注系统稳定性与车机互联。这里放的是我公开的开发工具和工程实验。
 
-## 01 / Diagnose · Android 稳定性
+**VS Code 扩展** · [CSV 表格编辑与虚拟滚动](https://github.com/HOLYGITHUBUSER/vscode_csv_reader) · [Markdown 与 Mermaid 预览](https://github.com/HOLYGITHUBUSER/vscode_md_reader) · [YAML 结构树与源码定位](https://github.com/HOLYGITHUBUSER/vscode_yaml_reader)
 
-**冻屏不等于主线程卡死。** 我先区分输入没有被处理、应用没有产出新帧，还是新帧没有显示，再决定看哪一层。下面是排查方法示意，不是客户项目日志。
-
-```mermaid
-flowchart LR
-  A["记录冻屏时刻与操作"] --> B["对齐日志与系统 Trace"]
-  B --> C["输入派发 / 主线程栈"]
-  B --> D["应用产帧 / RenderThread"]
-  B --> E["窗口可见性 / SurfaceFlinger"]
-  C --> F["复现并验证假设"]
-  D --> F
-  E --> F
-```
-
-## 02 / Build · 编辑器作品
-
-![CSV Reader 筛选交互：五条样例记录按 editor 筛选后留下三条](./csv-filter.gif)
-
-*CSV Custom Pro 的 Webview 测试实录：打开列筛选 → 输入 editor → 检查三条结果。使用真实前端代码和示例数据，宿主响应由测试脚手架模拟。*
-
-| 作品 | 什么时候用它 |
-| --- | --- |
-| [CSV Custom Pro](https://github.com/HOLYGITHUBUSER/vscode_csv_reader) | 打开一张宽表，直接按列筛选、排序和编辑；分块渲染和虚拟滚动让大表不必一次画完。 |
-| [MD Editor](https://github.com/HOLYGITHUBUSER/vscode_md_reader) | 写技术文档时，在编辑器里预览 Markdown 和 Mermaid 图。 |
-| [YAML Reader](https://github.com/HOLYGITHUBUSER/vscode_yaml_reader) | 面对层层嵌套的配置，从结构树点到源码，按键名、值或路径定位节点；默认只读，需要修改时再进入编辑模式。 |
-
-## 03 / AgentVault · AI 可以代付，但谁来定额度？
+## AgentVault · AI 可以代付，但谁来定额度？
 
 [**AgentVault**](https://github.com/HOLYGITHUBUSER/hecthon_monad_hangzhou_20260413) 是 **Monad Blitz 杭州 V2 · Agentic Payment** 参赛作品。在 Monad 测试网上，用户设置授权与限额，AI Agent 发起支付，金库合约按规则执行。用户可以撤销授权。
 
@@ -44,7 +19,7 @@ flowchart LR
   U -. 可撤销授权 .-> V
 ```
 
-## 04 / Toolbox · 可复用的工程经验
+## Toolbox · 可复用的工程经验
 
 - **AI 工作流** · [HarnessEngineering](https://github.com/HOLYGITHUBUSER/HarnessEngineering)：把任务说明整理为可复用的 Skills、命令和规则。可以直接从 [skills 目录](https://github.com/HOLYGITHUBUSER/HarnessEngineering/tree/HEAD/skills) 看起。
 - **Android / Kotlin** · [PermissionLibX](https://github.com/HOLYGITHUBUSER/PermissionLibX)：把运行时权限申请封装起来，让业务页面专注于授权后的操作。
@@ -60,7 +35,7 @@ flowchart LR
 **开发者工具**：TypeScript、VS Code 扩展、Webview 和虚拟列表。  
 **Agent 工程**：Skills、MCP、Solidity 与链上授权。
 
-## 05 / Activity · 贡献足迹
+## Activity · 贡献足迹
 
 [![公开仓库数](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FHOLYGITHUBUSER&query=%24.public_repos&label=Public%20repos&logo=github&color=356b59)](https://github.com/HOLYGITHUBUSER?tab=repositories) [![关注者](https://img.shields.io/github/followers/HOLYGITHUBUSER?label=Followers&logo=github&color=466987)](https://github.com/HOLYGITHUBUSER?tab=followers)
 
