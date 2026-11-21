@@ -35,3 +35,13 @@ Android · 系统稳定性 · 车机互联
 **Agent 工程**：Skills、MCP、Solidity 与链上授权。
 
 </details>
+
+## GitHub Stats · 贡献足迹
+
+[![公开仓库数](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FHOLYGITHUBUSER&query=%24.public_repos&label=Public%20repos&logo=github&color=356b59)](https://github.com/HOLYGITHUBUSER?tab=repositories) [![关注者](https://img.shields.io/github/followers/HOLYGITHUBUSER?label=Followers&logo=github&color=466987)](https://github.com/HOLYGITHUBUSER?tab=followers)
+
+[![过去一年的 GitHub 贡献日历，颜色越深表示当天贡献越多](https://ghchart.rshah.org/39845a/HOLYGITHUBUSER)](https://github.com/HOLYGITHUBUSER#js-contribution-activity)
+
+[查看 GitHub 原生贡献记录 →](https://github.com/HOLYGITHUBUSER#js-contribution-activity)
+
+**Contact · 技术交流**　具体问题欢迎在对应项目提 Issue；其他公开交流可以[从这里发起](https://github.com/HOLYGITHUBUSER/HOLYGITHUBUSER/issues/new)。
